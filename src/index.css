@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Thin scrollbar with blue track and thumb */
+::-webkit-scrollbar {
+  width: 6px;            /* Equivalent to scrollbar-thin */
+  height: 6px;
+
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;   /* Tailwind's blue-200 */
+  margin: 0 100px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3b83f68b; /* Tailwind's blue-500 */
+  border-radius: 30px;     /* Fully rounded */
+  border: 1px solid transparent;
+  
+}
+
+/* Optional: For Firefox */
+.Hscroll {
+  scrollbar-width: thin;
+  scrollbar-color: #3b82f6 #0b5fe6;
+}
