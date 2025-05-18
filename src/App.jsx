@@ -2,7 +2,7 @@ import { useState } from 'react'
 import React from "react";
 import "./index.css"; 
 import HeroSection from './components/HeroSection';
-import { Experience } from './components/experience';
+import { Experience } from './components/Experience';
 import { Achivement } from './components/Achivement';
 import { Project } from './components/Project';
 import Skills from './components/Skills';
