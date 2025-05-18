@@ -6,7 +6,7 @@ import oracleLogo from "./oracle_logo.jpg"
 import muj from "./muj.png"
 import rocket from "./rocket.jpg"
 import acm from "./acm.png"
-import aic from "./aicLogo.png"
+import aic from "./aiclogo.png"
 export{
     amazonLogo,
     deeplearingLogo,
