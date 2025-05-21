@@ -18,7 +18,7 @@ function Navbar({ scrollToSection, refs }) {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 px-6 md:px-16 py-4 ${
+    <nav className={`fixed top-0 left-0 w-screen z-50 transition-all duration-300 px-6 md:px-16 py-4 ${
       scrolled ? 'bg-[#04052E] shadow-md backdrop-blur-md' : 'bg-transparent'
     }`}>
       <div className="flex items-center justify-between max-w-7xl mx-auto">

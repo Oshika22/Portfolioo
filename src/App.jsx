@@ -29,9 +29,9 @@ function MainContent() {
 
   return (
     <>
-      <Navbar scrollToSection={scrollToSection} refs={{
+      <div className= "max-w-full"><Navbar scrollToSection={scrollToSection} refs={{
         homeRef, experienceRef, projectRef, skillsRef, achievementRef, certificationRef, contactRef
-      }} />
+      }} /></div>
       <div className="bg-[#04052E]">
         <div ref={homeRef}><HeroSection /></div>
         <div ref={experienceRef}><Experience /></div>

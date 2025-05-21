@@ -8,7 +8,7 @@ const Footer = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7 }}
-          className="text-3xl sm:text-3xl font-extrabold leading-tight text-white"
+          className="text-3xl sm:text-3xl font-extrabold leading-tight text-white text-center"
         >
           Focused on {""}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#865DFF] to-[#00B4D8]">
