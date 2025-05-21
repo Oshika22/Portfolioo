@@ -1,9 +1,10 @@
 import { useRef, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { link } from "framer-motion/client";
 
 // ✅ Reusable Component
-const AnimatedCircleCard = ({ title, content, quote }) => {
+const AnimatedCircleCard = ({ title, content, quote, link }) => {
   const container = useRef();
   const [expanded, setExpanded] = useState(false);
   const { contextSafe } = useGSAP({ scope: container });
@@ -67,7 +68,7 @@ const AnimatedCircleCard = ({ title, content, quote }) => {
         <div className="text-lg text-blue-50 text-justify">{content}</div>
       </div>
       <div className="exp-hovCont w-80 h-80 absolute bg-gradient-to-br from-[#22007C] to-[#4287f5] border-[#458cff] border-[2px] flex flex-col items-center justify-center font-['Reddit_Sans'] opacity-0">
-        <div className="text-yellow-400 text-2xl font-semibold">{title}</div> 
+        <a href= {link} target="_blank"><div className="text-yellow-400 text-2xl font-semibold hover:text-yellow-200">{title}</div></a> 
         <div className="text-lg text-amber-50 text-justify">{quote}</div>
         
       </div>
@@ -80,11 +81,13 @@ export const Achivement = () => {
   const cards = [
     { title: "Student Excellence Award",
       content: "Recognized for exceptional leadership, and innovation, demonstrating a strong commitment to excellence and continuous improvement",
-      quote: "Excellence is a journey, not a destination."
+      quote: "Excellence is a journey, not a destination.",
+      link: "https://www.linkedin.com/posts/oshika-sharma-a1120529a_thrilled-to-receive-the-student-excellence-activity-7261363848031395840-qiGu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhKH20BaT4Txl1KmFMwSVwfvY1fv21MA2w",
     },
     { title: "Trail Blazer Winner",
       content: " Served as team leader, leading a group of three to secure second place in the Trail Blazer Hackathon, where we tackled complex web development challenges and delivered an innovative solution",
-      quote: "Every challenge is an opportunity to learn and level up."
+      quote: "Every challenge is an opportunity to learn and level up.",
+      link: "https://www.linkedin.com/posts/oshika-sharma-a1120529a_secured-2nd-place-in-trail-blazer-as-activity-7246188642551922688-CtF3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhKH20BaT4Txl1KmFMwSVwfvY1fv21MA2w"
      },
     
   ];
@@ -97,7 +100,7 @@ export const Achivement = () => {
 
       <div className="flex flex-wrap items-center justify-center gap-4 mt-7 mb-7">
         {cards.map((card, index) => (
-          <AnimatedCircleCard key={index} title={card.title} content={card.content} quote={card.quote}/>
+          <AnimatedCircleCard key={index} title={card.title} content={card.content} quote={card.quote} link = {card.link}/>
         ))}
       </div>
     </div>
