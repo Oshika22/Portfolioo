@@ -19,10 +19,10 @@ export const Experience = () => {
             className="w-[60%] h-[60%] object-contain"
           />}
         >
-          <h3 className="vertical-timeline-element-title text-2xl font-bold text-yellow-400">Founder & Lead Developer — BizPulse</h3>
+          <h3 className="vertical-timeline-element-title text-2xl font-bold text-yellow-400">Founder & Lead Developer — Eventra</h3>
           <h4 className="vertical-timeline-element-subtitle text-lg font-medium text-amber-50">Pre-incubated Startup | AIC MUJ</h4>
           <p>
-            Founded BizPulse: an AI-driven platform for automating event data management
+            Founded Eventra: an AI-driven platform for automating event data management
             Designed and developed the full-stack web app using React, Flask, MongoDB
             Integrated ML to predict event turnout from Excel submissions
           </p>

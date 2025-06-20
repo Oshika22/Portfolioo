@@ -42,7 +42,7 @@ const HeroSection = () => {
             View Projects
           </a>
           <a
-            href="https://drive.google.com/file/d/1Rr69OEHtU2nN3246bm9HEd7njqT5hMc1/view?usp=sharing"
+            href=""
             download
             className="px-6 py-3 border border-white hover:bg-white hover:text-[#0D00A4] rounded-full font-semibold transition duration-300"
           >
