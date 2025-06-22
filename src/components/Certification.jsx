@@ -44,7 +44,7 @@ export default function Certification() {
 
   return (
     <div className="bg-[#04052E] py-12 px-4 text-white">
-      <h1 className="justify-centre leading-tight bg-gradient-to-r from-[#865DFF] to-[#00B4D8] bg-clip-text text-transparent text-6xl font-bold text-center m-4">Certifications</h1>
+      <h1 className="justify-centre leading-tight bg-gradient-to-r from-[#865DFF] to-[#00B4D8] bg-clip-text text-transparent text-5xl  font-bold text-center m-4">Certifications</h1>
 
       {/* Horizontal scroll with alternate vertical positions */}
       <div className="hScroll overflow-x-auto overflow-y-hidden h-[300px] p-4">

@@ -7,6 +7,8 @@ import muj from "./muj.png"
 import rocket from "./rocket.jpg"
 import acm from "./acm.png"
 import aic from "./aiclogo.png"
+import MissionMeter from "./MissionMeterLogoC.png"
+import EventraLogo from "./EventraLogo.png"
 export{
     amazonLogo,
     deeplearingLogo,
@@ -16,5 +18,7 @@ export{
     rocket,
     muj,
     acm,
-    aic
+    aic,
+    MissionMeter,
+    EventraLogo,
 }

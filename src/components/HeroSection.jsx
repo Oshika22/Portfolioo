@@ -5,7 +5,8 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-white px-4 sm:px-10 bg-gradient-to-b from-[#140152] to-[#0D00A4]">
+    <section className="relative min-h-screen flex flex-col justify-center items-center text-white px-4 sm:px-8 md:px-16 py-12  bg-gradient-to-b from-[#140152] to-[#0D00A4] overflow-hidden">
+    
       <div className="max-w-4xl text-center">
         <motion.h1
           initial={{ y: -50, opacity: 0 }}
@@ -25,7 +26,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="mt-4 text-lg sm:text-xl text-[#DADAFB]"
         >
-          A curious mind who loves turning challenges into smart, tech-driven solutions. Whether building AI-powered platforms like BizPulse or helping peers get ready for their dream jobs, I’m all about creating impact through innovation and teamwork. This portfolio is a peek into my journey, projects, and the passion that drives me every day. Dive in and let’s explore together!
+          A curious mind who loves turning challenges into smart, tech-driven solutions. Whether building AI-powered platforms like Eventra or helping peers get ready for their dream jobs, I’m all about creating impact through innovation and teamwork. This portfolio is a peek into my journey, projects, and the passion that drives me every day. Dive in and let’s explore together!
         </motion.p>
 
         {/* Buttons */}
