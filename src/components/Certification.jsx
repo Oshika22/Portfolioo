@@ -2,11 +2,11 @@ import { amazonLogo, deeplearingLogo, cloudLogo, mongoLogo, oracleLogo, } from "
 export default function Certification() {
   const certifications = [
     {
-      title: 'Architecting Solutions on AWS',
+      title: 'AWS Cloud Solutions Architect',
       issuer: 'Amazon Web Services',
       date: 'April 2024',
       img: amazonLogo,
-      link: 'https://www.coursera.org/account/accomplishments/verify/CKSHSJ8EYZIQ',
+      link: 'https://coursera.org/share/b86236bb4186c7507c1adb259d6a8fcb',
       description: 'Understood AWS services and deployment basics.',
     },
     {
@@ -33,7 +33,7 @@ export default function Certification() {
       link: 'https://www.geeksforgeeks.org/certificate/a06fcda82b5dddab2f59243ea70256ca?utm_source=socials&utm_medium=cc_link',
       description: 'Grasped fundamentals of NoSQL database.',
     },
-        {
+    {
       title: 'Database Programming with SQL',
       issuer: 'Oracle',
       date: 'Nov 2024',
