@@ -24,7 +24,7 @@ import { motion } from "framer-motion";
 // };
 
 import ProjectCard from "./ProjectCard";
-import { MissionMeter, EventraLogo } from "../assets/images";
+import { MissionMeter, EventraLogo, packTrackLogo } from "../assets/images";
 
 const projects = [
 
@@ -46,6 +46,16 @@ const projects = [
     videoLink: "https://drive.google.com/file/d/1q3PBis1tAy_kOxeuqIu_0Jc5unHLRwVX/view?usp=sharing",
     gitLink: "https://github.com/Oshika22/MissionMeter"
   },
+  {
+    title: "PackTrack: Powered by Red-Black Tree",
+    description: "A package tracking system powered by Red-Black Tree, featuring interactive tree visualization and efficient search, insert, and delete operations.",
+    tools: "ReactJS, JavaScript, Tailwind CSS, Red-Black Tree (Custom)",
+    image: packTrackLogo,
+    liveLink: "https://package-tracker-rb-tree.vercel.app/",
+    videoLink: "https://package-tracker-rb-tree.vercel.app/",
+    gitLink: "https://github.com/Oshika22/packageTrackerRBTree/"
+  },
+
 
   // Add more...
 ];

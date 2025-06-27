@@ -9,6 +9,7 @@ import acm from "./acm.png"
 import aic from "./aiclogo.png"
 import MissionMeter from "./MissionMeterLogoC.png"
 import EventraLogo from "./EventraLogo.png"
+import packTrackLogo from "./packTrackLogo.png"
 export{
     amazonLogo,
     deeplearingLogo,
@@ -21,4 +22,5 @@ export{
     aic,
     MissionMeter,
     EventraLogo,
+    packTrackLogo,
 }
