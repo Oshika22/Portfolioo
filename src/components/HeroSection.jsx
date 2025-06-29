@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 const HeroSection = () => {
   return (
@@ -74,14 +75,23 @@ const HeroSection = () => {
           >
             <FaGithub />
           </a>
+                    <a
+            href="https://leetcode.com/u/oshika22/" // replace with actual LinkedIn
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#865DFF] transition"
+          >
+            <SiLeetcode />
+          </a>
           <a
-            href="https://linkedin.com/in/oshika-linkedin" // replace with actual LinkedIn
+            href="https://linkedin.com/in/oshika-linkedin" 
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#865DFF] transition"
           >
             <FaLinkedin />
           </a>
+
         </motion.div>
       </div>
 

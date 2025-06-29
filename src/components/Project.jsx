@@ -24,7 +24,7 @@ import { motion } from "framer-motion";
 // };
 
 import ProjectCard from "./ProjectCard";
-import { MissionMeter, EventraLogo, packTrackLogo } from "../assets/images";
+import { MissionMeter, EventraLogo, packTrackLogo, urbanOptLogo } from "../assets/images";
 
 const projects = [
 
@@ -48,12 +48,21 @@ const projects = [
   },
   {
     title: "PackTrack: Powered by Red-Black Tree",
-    description: "A package tracking system powered by Red-Black Tree, featuring interactive tree visualization and efficient search, insert, and delete operations.",
+    description: "A package tracking system, featuring interactive tree visualization and efficient search, insert, and delete operations.",
     tools: "ReactJS, JavaScript, Tailwind CSS, Red-Black Tree (Custom)",
     image: packTrackLogo,
     liveLink: "https://package-tracker-rb-tree.vercel.app/",
     videoLink: "https://package-tracker-rb-tree.vercel.app/",
     gitLink: "https://github.com/Oshika22/packageTrackerRBTree/"
+  },
+  {
+    title: "UrbanOptima",
+    description: "UrbanOptima is a powerful AI-powered dashboard designed to optimize urban sustainability through data-driven decision-making.",
+    tools: "ReactJS, Flask, scikit-learn, OpenRouter API, Chart.js/Recharts, Python, ThreeJS ",
+    image: urbanOptLogo,
+    liveLink: "https://susdev-jgfp.vercel.app/",
+    videoLink: "https://susdev-jgfp.vercel.app/",
+    gitLink: "https://github.com/Oshika22/susdev"
   },
 
 
