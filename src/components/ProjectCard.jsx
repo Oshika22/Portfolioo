@@ -76,12 +76,15 @@ export default function ProjectCard({ title, description, tools, image, liveLink
       <div className="absolute bottom-0 left-2/3 -translate-x-1/2 w-40 h-24 bg-gradient-to-t from-purple-500 via-transparent to-transparent blur-2xl pointer-events-none z-0" />
       {/* 📦 Content */}
       <div className="relative z-10">
-        
-        <img
-          src={image}
-          alt={title}
-          className="rounded-xl mb-4 object-cover w-1/3 transition duration-300 group-hover:opacity-80"
-        />
+        <div className="w-full h-24 flex items-center justify-start mb-4">
+          <img
+            src={image}
+            alt={title}
+            className="max-h-full max-w-full object-contain rounded-xl transition duration-300 group-hover:opacity-80"
+          />
+        </div>
+
+
         <h3 className="text-xl font-semibold text-white">{title}</h3>
         <p className="text-sm text-gray-300">{description}</p>
         <p className="text-sm text-gray-300 italic">Tools: {tools}</p>

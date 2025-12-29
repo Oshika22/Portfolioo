@@ -24,7 +24,7 @@ import { motion } from "framer-motion";
 // };
 
 import ProjectCard from "./ProjectCard";
-import { MissionMeter, EventraLogo, packTrackLogo, urbanOptLogo } from "../assets/images";
+import { MissionMeter, EventraLogo, packTrackLogo, urbanOptLogo, docFormatter, multiAgent } from "../assets/images";
 
 const projects = [
 
@@ -38,14 +38,24 @@ const projects = [
     gitLink: "https://github.com/Oshika22/EventManagement"
   },
   {
-    title: "MissionMeter",
-    description: "Space budget planner app with AI features.",
-    tools: "ReactJS, Flask, scikit-learn, OpenRouter API, Chart.js/Recharts, Python, ThreeJS",
-    image: MissionMeter,
-    liveLink: "https://mission-meter-7l66.vercel.app/",
-    videoLink: "https://drive.google.com/file/d/1q3PBis1tAy_kOxeuqIu_0Jc5unHLRwVX/view?usp=sharing",
-    gitLink: "https://github.com/Oshika22/MissionMeter"
+    title: "AI-Powered Word Document Formatter",
+    description: "AI-driven system that analyzes Word documents and automatically applies consistent formatting based on user instructions or document structure.",
+    tools: "Python, LangChain, LangGraph, OpenAI API, python-docx",
+    image: docFormatter,
+    liveLink: "https://github.com/Oshika22/DocFormatter",
+    videoLink: "",
+    gitLink: "https://github.com/Oshika22/DocFormatter"
   },
+  {
+    title: "Multi-Agent Information Routing Engine",
+    description: "Multi-agent system that routes PDFs, JSON data, and Emails to specialized agents for structured extraction and automated response generation.",
+    tools: "Python, Flask, LangChain, MySQL, LLM APIs",
+    image: multiAgent,
+    liveLink: "https://github.com/Oshika22/DocFormatter",
+    videoLink: "",
+    gitLink: "https://github.com/Oshika22/DocFormatter"
+  },
+
   {
     title: "PackTrack: Powered by Red-Black Tree",
     description: "A package tracking system, featuring interactive tree visualization and efficient search, insert, and delete operations.",
@@ -63,6 +73,15 @@ const projects = [
     liveLink: "https://susdev-jgfp.vercel.app/",
     videoLink: "https://susdev-jgfp.vercel.app/",
     gitLink: "https://github.com/Oshika22/susdev"
+  },
+  {
+    title: "MissionMeter",
+    description: "Space budget planner app with AI features.",
+    tools: "ReactJS, Flask, scikit-learn, OpenRouter API, Chart.js/Recharts, Python, ThreeJS",
+    image: MissionMeter,
+    liveLink: "https://mission-meter-7l66.vercel.app/",
+    videoLink: "https://drive.google.com/file/d/1q3PBis1tAy_kOxeuqIu_0Jc5unHLRwVX/view?usp=sharing",
+    gitLink: "https://github.com/Oshika22/MissionMeter"
   },
 
 

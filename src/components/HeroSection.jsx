@@ -25,7 +25,7 @@ const HeroSection = () => {
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="mt-4 text-lg sm:text-xl text-[#DADAFB]"
+            className="mt-4 text-lg sm:text-xl text-[#DADAFB] text-justify"
           >
             A curious mind who loves turning challenges into smart, tech-driven solutions. Whether building AI-powered platforms like Eventra or helping peers get ready for their dream jobs, I’m all about creating impact through innovation and teamwork. This portfolio is a peek into my journey, projects, and the passion that drives me every day. Dive in and let’s explore together!
           </motion.p>

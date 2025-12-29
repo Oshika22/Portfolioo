@@ -89,6 +89,11 @@ export const Achivement = () => {
       quote: "Every challenge is an opportunity to learn and level up.",
       link: "https://www.linkedin.com/posts/oshika-sharma-a1120529a_secured-2nd-place-in-trail-blazer-as-activity-7246188642551922688-CtF3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhKH20BaT4Txl1KmFMwSVwfvY1fv21MA2w"
      },
+    { title: "Dean's List: Acadmic Excellence Award",
+      content: "Awarded for outstanding academic performance, securing a 9.63 GPA in Semester 4, reflecting discipline",
+      quote: "Learning deeply matters more than learning quickly.",
+      link: "https://drive.google.com/file/d/1NvsvVHawgWgVeeWpOjOg-RppTqxUNA6l/view"
+     },
     
   ];
 

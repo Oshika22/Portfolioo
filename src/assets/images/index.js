@@ -11,6 +11,8 @@ import MissionMeter from "./MissionMeterLogoC.png"
 import EventraLogo from "./EventraLogo.png"
 import packTrackLogo from "./packTrackLogo.png"
 import urbanOptLogo from "./urbanOptLogo.png"
+import docFormatter from "./docFormatter.png"
+import multiAgent from "./multiAgent.png"
 export{
     amazonLogo,
     deeplearingLogo,
@@ -25,4 +27,6 @@ export{
     EventraLogo,
     packTrackLogo,
     urbanOptLogo,
+    docFormatter,
+    multiAgent,
 }
